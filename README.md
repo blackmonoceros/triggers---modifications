@@ -1,3 +1,4 @@
+______________________________________________________________________________________________________________________________________
 # triggers---modifications
 
 Task 1
@@ -8,7 +9,8 @@ b) INSTEAD OF INSERT version
 
 Task 2
 
-In the Northwind database, the Products_log table (containing the columns No. INT IDENTITY(1,1), Date DATETIME and Notes NVARCHAR(255)) and added a trigger that will add one record to it each time the products table is updated.
+In the Northwind database, the Products_log table (containing the columns No. INT IDENTITY(1,1), Date DATETIME and Notes NVARCHAR(255)) 
+and added a trigger that will add one record to it each time the products table is updated.
 
 CREATE TABLE Products_log
 (
