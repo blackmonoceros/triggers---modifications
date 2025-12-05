@@ -55,4 +55,4 @@ Task 8
 A trigger that will modify the UnitsInStock field in the Products table after adding a row (rows) to the [Order Details] table. We are therefore to modify 
 the quantity of goods in stock, based on data from the order.
 At the same time, the trigger is to rollback the transaction if among the newly added rows in the [Order Details] statement, the Quantity column contains 
-a value greater than the number of units in stock (i.e. UnitsInStock).
+a value greater than the number of units in stock (i.e. UnitsInStock)...
